@@ -68,5 +68,3 @@ Every solution file should contain:
 4. **Complexity**: give a reasonable time/space discussion, noting that actual SQL performance depends on table size, indexes, database engine, and execution plan.
 5. **What tripped me up**: record a real difficulty or edge case considered; do not invent a mistake.
 6. **What I learned**: capture the reusable lesson.
-
-Keep the SQL query below the comment header. Prefer clear, readable SQL over unnecessary complexity.
