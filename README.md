@@ -62,11 +62,11 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 
 Every solution file should contain:
 
-1. **Problem and link** — the LeetCode number, title, and URL.
-2. **Topic and pattern** — the SQL concept being practiced.
-3. **Approach** — explain why the query solves the problem.
-4. **Complexity** — give a reasonable time/space discussion, noting that actual SQL performance depends on table size, indexes, database engine, and execution plan.
-5. **What tripped me up** — record a real difficulty or edge case considered; do not invent a mistake.
-6. **What I learned** — capture the reusable lesson.
+1. **Problem and link**: the LeetCode number, title, and URL.
+2. **Topic and pattern**: the SQL concept being practiced.
+3. **Approach**: explain why the query solves the problem.
+4. **Complexity**: give a reasonable time/space discussion, noting that actual SQL performance depends on table size, indexes, database engine, and execution plan.
+5. **What tripped me up**: record a real difficulty or edge case considered; do not invent a mistake.
+6. **What I learned**: capture the reusable lesson.
 
 Keep the SQL query below the comment header. Prefer clear, readable SQL over unnecessary complexity.
