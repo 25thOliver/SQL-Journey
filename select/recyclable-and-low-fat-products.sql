@@ -14,6 +14,8 @@
 -- What tripped me up:
 -- At first I was querying all the columns and it was returning them all instead of the required product_id column
 
+-- What I learned:
+-- Use AND when every specified conditions must be true
 SELECT product_id
 FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y';
