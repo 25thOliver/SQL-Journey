@@ -32,9 +32,9 @@ The query did not pair start and end timestamps for each process
 */
 
 SELECT a.machine_id,
-    ROUND(AVG(b.timestamp - a.timesttamp), 3) AS processing_time
+    ROUND(AVG(b.timestamp - a.timestamp), 3) AS processing_time
 FROM Activity a 
-JOIN ACtivity b
+JOIN Activity b
     ON a.machine_id = b.machine_id
     AND a.process_id = b.process_id
 WHERE a.activity_type = 'start'
