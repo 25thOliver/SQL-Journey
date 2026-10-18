@@ -32,7 +32,7 @@ complexity depend on the database execution plan.
 */
 
 SELECT 
-    product_id,
+    Prices.product_id,
     ROUND(IFNULL(SUM(Prices.price * UnitsSold.units) / SUM(UnitsSold.units), 0), 2) AS average_price
 FROM Prices
 LEFT JOIN UnitsSold
