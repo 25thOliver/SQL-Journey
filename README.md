@@ -27,6 +27,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations/) | JOIN / Aggregation | `CROSS JOIN`, `LEFT JOIN`, `GROUP BY`, `COUNT()` | Solved | [`1280-students-and-examinations.sql`](select/1280-students-and-examinations.sql) |
 | [570. Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) | Aggregation / Subquery | `GROUP BY`, `HAVING`, subquery | Solved | [`570-managers-with-at-least-5-direct-reports.sql`](select/570-managers-with-at-least-5-direct.sql) |
 | [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | Aggregation, Subquery, ROUND | GROUP BY + scalar subquery | Solved | [`1633-percentage-of-users-attended-a-contest.sql`](select/1633-percentage-of-users-attended-a-contest.sql) |
+| [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/) | Aggregation, AVG, SUM, ROUND | Conditional aggregation | Solved | [`1211-queries-quality-and-percentage.sql`](select/1211-queries-quality-and-percentage.sql) |
 
 
 ## SQL Concepts Practiced
