@@ -35,6 +35,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1075. Project Employees I](https://leetcode.com/problems/project-employees-i/) | JOINs, Aggregation | JOIN tables + AVG() + GROUP BY | Solved | [`1075-project-employees-i.sql`](select/1075-project-employees-i.sql) |
 | [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | Aggregation, Subqueries, Percentage Calculation | COUNT() per contest divided by total users using a scalar subquery | Solved | [`1633-percentage-of-users-attended-a-contest.sql`](select/1633-percentage-of-users-attended-a-contest.sql) |
 | [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/) | CTEs, JOINs, Aggregation, Conditional Aggregation | Find each customer's first order, join back to retrieve its delivery preference, then calculate the percentage | Solved | [`1174-immediate-food-delivery-ii.sql`](select/1174-immediate-food-delivery-ii.sql) |
+| [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | JOIN, NULL Handling | LEFT JOIN | Solved | [`175-combine-two-tables.sql`](select/175-combine-two-tables.sql) |
 
 ## SQL Concepts Practiced
 
