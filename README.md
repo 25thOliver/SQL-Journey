@@ -37,6 +37,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/) | CTEs, JOINs, Aggregation, Conditional Aggregation | Find each customer's first order, join back to retrieve its delivery preference, then calculate the percentage | Solved | [`1174-immediate-food-delivery-ii.sql`](select/1174-immediate-food-delivery-ii.sql) |
 | [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | JOIN, NULL Handling | LEFT JOIN | Solved | [`175-combine-two-tables.sql`](select/175-combine-two-tables.sql) |
 | [181. Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | Self-JOIN, WHERE | Self-join to compare related rows | Solved | [`181-employees-earning-more-than-their-managers.sql`](select/181-employees-earning-more-than-their-managers.sql) |
+| [182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | GROUP BY, HAVING, COUNT | Group duplicates and filter using HAVING | Solved | [`182-duplicate-emails.sql`](select/182-duplicate-emails.sql) |
 
 ## SQL Concepts Practiced
 
