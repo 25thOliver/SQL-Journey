@@ -36,6 +36,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | Aggregation, Subqueries, Percentage Calculation | COUNT() per contest divided by total users using a scalar subquery | Solved | [`1633-percentage-of-users-attended-a-contest.sql`](select/1633-percentage-of-users-attended-a-contest.sql) |
 | [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/) | CTEs, JOINs, Aggregation, Conditional Aggregation | Find each customer's first order, join back to retrieve its delivery preference, then calculate the percentage | Solved | [`1174-immediate-food-delivery-ii.sql`](select/1174-immediate-food-delivery-ii.sql) |
 | [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | JOIN, NULL Handling | LEFT JOIN | Solved | [`175-combine-two-tables.sql`](select/175-combine-two-tables.sql) |
+| [181. Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | Self-JOIN, WHERE | Self-join to compare related rows | Solved | [`181-employees-earning-more-than-their-managers.sql`](select/181-employees-earning-more-than-their-managers.sql) |
 
 ## SQL Concepts Practiced
 
