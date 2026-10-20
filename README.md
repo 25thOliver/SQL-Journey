@@ -54,6 +54,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1141. User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | Aggregation, Date Filtering | WHERE + GROUP BY + COUNT(DISTINCT) | Solved | [`1141-user-activity-for-the-past-30-days-i.sql`](sorting&grouping/1141-user-activity-for-the-past-30-days-i.sql) |
 | [596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/) | Aggregation, GROUP BY, HAVING | GROUP BY + HAVING COUNT(DISTINCT) | Solved | [`596-classes-with-at-least-5-students.sql`](sorting&grouping/596-classes-with-at-least-5-students.sql) |
 | [1729. Find Followers Count](https://leetcode.com/problems/find-followers-count/) | Aggregation, GROUP BY | GROUP BY + COUNT | Solved | [`1729-find-followers-count.sql`](sorting&grouping/1729-find-followers-count.sql) |
+| [619. Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | Aggregation, Subqueries | GROUP BY + HAVING in subquery, then MAX | Solved | [`619-biggest-single-number.sql`](sorting&grouping/619-biggest-single-number.sql) |
 
 ## SQL Concepts Practiced
 
