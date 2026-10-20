@@ -51,6 +51,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | JOIN, NULL Handling | LEFT JOIN | Solved | [`175-combine-two-tables.sql`](select/175-combine-two-tables.sql) |
 | [181. Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | Self-JOIN, WHERE | Self-join to compare related rows | Solved | [`181-employees-earning-more-than-their-managers.sql`](select/181-employees-earning-more-than-their-managers.sql) |
 | [182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | GROUP BY, HAVING, COUNT | Group duplicates and filter using HAVING | Solved | [`182-duplicate-emails.sql`](select/182-duplicate-emails.sql) |
+| [1141. User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | Aggregation, Date Filtering | WHERE + GROUP BY + COUNT(DISTINCT) | Solved | [`1141-user-activity-for-the-past-30-days-i.sql`](sorting&grouping/1141-user-activity-for-the-past-30-days-i.sql) |
 
 ## SQL Concepts Practiced
 
