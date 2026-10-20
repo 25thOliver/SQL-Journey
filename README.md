@@ -52,6 +52,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [181. Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | Self-JOIN, WHERE | Self-join to compare related rows | Solved | [`181-employees-earning-more-than-their-managers.sql`](select/181-employees-earning-more-than-their-managers.sql) |
 | [182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | GROUP BY, HAVING, COUNT | Group duplicates and filter using HAVING | Solved | [`182-duplicate-emails.sql`](select/182-duplicate-emails.sql) |
 | [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Subqueries, DISTINCT, ORDER BY, LIMIT | Retrieve the second distinct value | Solved | [`176-second-highest-salary.sql`](select/176-second-highest-salary.sql) |
+| [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | Aggregation, DISTINCT | GROUP BY with COUNT(DISTINCT) | Solved | [`2356-number-of-unique-subjects-taught-by-each-teacher.sql`](select/2356-number-of-unique-subjects-taught-by-each-teacher.sql) |
 
 ## SQL Concepts Practiced
 
