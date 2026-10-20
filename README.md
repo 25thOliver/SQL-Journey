@@ -56,6 +56,8 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1729. Find Followers Count](https://leetcode.com/problems/find-followers-count/) | Aggregation, GROUP BY | GROUP BY + COUNT | Solved | [`1729-find-followers-count.sql`](sorting&grouping/1729-find-followers-count.sql) |
 | [619. Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | Aggregation, Subqueries | GROUP BY + HAVING in subquery, then MAX | Solved | [`619-biggest-single-number.sql`](sorting&grouping/619-biggest-single-number.sql) |
 | [1045. Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | Aggregation, Subqueries | GROUP BY + HAVING COUNT(DISTINCT) = total | Solved | [`1045-customers-who-bought-all-products.sql`](sorting&grouping/1045-customers-who-bought-all-products.sql) |
+| [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Subqueries, DISTINCT, ORDER BY, LIMIT | Retrieve the second distinct value | Solved | [`176-second-highest-salary.sql`](select/176-second-highest-salary.sql) |
+| [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | Aggregation, DISTINCT | GROUP BY with COUNT(DISTINCT) | Solved | [`2356-number-of-unique-subjects-taught-by-each-teacher.sql`](sorting&grouping/2356-number-of-unique-subjects-taught-by-each-teacher.sql) |
 
 ## SQL Concepts Practiced
 
