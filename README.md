@@ -60,6 +60,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | Aggregation, DISTINCT | GROUP BY with COUNT(DISTINCT) | Solved | [`2356-number-of-unique-subjects-taught-by-each-teacher.sql`](sorting&grouping/2356-number-of-unique-subjects-taught-by-each-teacher.sql) |
 | [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/) | Aggregation, Self JOIN | Self JOIN + GROUP BY + COUNT/AVG | Solved | [`1731-the-number-of-employees-which-report-to-each-employee.sql`](advanced_select&join/1731-the-number-of-employees-which-report-to-each-employee.sql) |
 | [1789. Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/) | Aggregation, Subqueries | WHERE + OR + IN subquery with GROUP BY/HAVING | Solved | [`1789-primary-department-for-each-employee.sql`](advanced_select&join/1789-primary-department-for-each-employee.sql) |
+| [610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | Conditional Logic, CASE | CASE WHEN with three inequality checks | Solved | [`610-triangle-judgement.sql`](advanced_select&join/610-triangle-judgement.sql) |
 
 ## SQL Concepts Practiced
 
