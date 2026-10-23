@@ -61,6 +61,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/) | Aggregation, Self JOIN | Self JOIN + GROUP BY + COUNT/AVG | Solved | [`1731-the-number-of-employees-which-report-to-each-employee.sql`](advanced_select&join/1731-the-number-of-employees-which-report-to-each-employee.sql) |
 | [1789. Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/) | Aggregation, Subqueries | WHERE + OR + IN subquery with GROUP BY/HAVING | Solved | [`1789-primary-department-for-each-employee.sql`](advanced_select&join/1789-primary-department-for-each-employee.sql) |
 | [610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | Conditional Logic, CASE | CASE WHEN with three inequality checks | Solved | [`610-triangle-judgement.sql`](advanced_select&join/610-triangle-judgement.sql) |
+| [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | Self JOIN, Window Functions | Self JOIN on id + 1 / id + 2 with DISTINCT | Solved | [`180-consecutive-numbers.sql`](advanced_select&join/180-consecutive-numbers.sql) |
 
 ## SQL Concepts Practiced
 
