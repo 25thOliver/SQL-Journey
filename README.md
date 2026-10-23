@@ -64,6 +64,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | Self JOIN, Window Functions | Self JOIN on id + 1 / id + 2 with DISTINCT | Solved | [`180-consecutive-numbers.sql`](advanced_select&join/180-consecutive-numbers.sql) |
 | [1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/) | Subqueries, UNION | Latest change per product via MAX(change_date) + default price branch | Solved | [`1164-product-price-at-a-given-date.sql`](advanced_select&join/1164-product-price-at-a-given-date.sql) |
 | [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/) | JOINS, Running Total | SUM() OVER (ORDER BY turn) + filter + LIMIT 1 | Solved | [`1204-last-person-to-fit-in-the-bus.sql`](advanced_select&join/1204-last-person-to-fit-in-the-bus.sql) |
+| [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/) | Aggregation, UNION | One COUNT(*) per category + UNION ALL | Solved | [`1907-count-salary-categories.sql`](advanced_select&join/1907-count-salary-categories.sql) |
 
 ## SQL Concepts Practiced
 
