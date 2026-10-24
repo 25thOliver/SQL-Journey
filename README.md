@@ -72,6 +72,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | Aggregation, UNION ALL | UNION ALL both id columns + GROUP BY + COUNT + LIMIT 1 | Solved | [`602-friend-requests-ii-who-has-the-most-friends.sql`](Subqueries/602-friend-requests-ii-who-has-the-most-friends.sql) |
 | [585. Investments in 2016](https://leetcode.com/problems/investments-in-2016/) | Subqueries, GROUP BY/HAVING | Two IN subqueries (duplicate tiv_2015, unique lat/lon pair) + SUM | Solved | [`585-investments-in-2016.sql`](Subqueries/585-investments-in-2016.sql) |
 | [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | Subqueries, JOIN | DENSE_RANK() OVER (PARTITION BY departmentId) + filter rank <= 3 | Solved | [`185-department-top-three-salaries.sql`](Subqueries/185-department-top-three-salaries.sql) |
+| [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | String Functions | UPPER(LEFT) + LOWER(SUBSTRING) + CONCAT | Solved | [`1667-fix-names-in-a-table.sql`](clauses/1667-fix-names-in-a-table.sql) |
 
 ## SQL Concepts Practiced
 
