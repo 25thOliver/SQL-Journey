@@ -65,6 +65,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/) | Subqueries, UNION | Latest change per product via MAX(change_date) + default price branch | Solved | [`1164-product-price-at-a-given-date.sql`](advanced_select&join/1164-product-price-at-a-given-date.sql) |
 | [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/) | JOINS, Running Total | SUM() OVER (ORDER BY turn) + filter + LIMIT 1 | Solved | [`1204-last-person-to-fit-in-the-bus.sql`](advanced_select&join/1204-last-person-to-fit-in-the-bus.sql) |
 | [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/) | Aggregation, UNION | One COUNT(*) per category + UNION ALL | Solved | [`1907-count-salary-categories.sql`](advanced_select&join/1907-count-salary-categories.sql) |
+| [1978. Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/) | Subqueries | NOT IN subquery on employee_id | Solved | [`1978-employees-whose-manager-left-the-company.sql`](Subqueries/1978-employees-whose-manager-left-the-company.sql) |
 
 ## SQL Concepts Practiced
 
