@@ -67,6 +67,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/) | Aggregation, UNION | One COUNT(*) per category + UNION ALL | Solved | [`1907-count-salary-categories.sql`](advanced_select&join/1907-count-salary-categories.sql) |
 | [1978. Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/) | Subqueries | NOT IN subquery on employee_id | Solved | [`1978-employees-whose-manager-left-the-company.sql`](Subqueries/1978-employees-whose-manager-left-the-company.sql) |
 | [626. Exchange Seats](https://leetcode.com/problems/exchange-seats/) | CASE, Scalar Subquery | id % 2 with CASE + MAX(id) subquery for the edge case | Solved | [`626-exchange-seats.sql`](Subqueries/626-exchange-seats.sql) |
+| [1341. Movie Rating](https://leetcode.com/problems/movie-rating/) | Aggregation, JOIN, UNION ALL | GROUP BY + ORDER BY + LIMIT 1 per branch, combined with UNION ALL | Solved | [`1341-movie-rating.sql`](Subqueries/1341-movie-rating.sql) |
 
 ## SQL Concepts Practiced
 
