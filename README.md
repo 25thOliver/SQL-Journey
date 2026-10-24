@@ -73,6 +73,11 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [585. Investments in 2016](https://leetcode.com/problems/investments-in-2016/) | Subqueries, GROUP BY/HAVING | Two IN subqueries (duplicate tiv_2015, unique lat/lon pair) + SUM | Solved | [`585-investments-in-2016.sql`](Subqueries/585-investments-in-2016.sql) |
 | [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | Subqueries, JOIN | DENSE_RANK() OVER (PARTITION BY departmentId) + filter rank <= 3 | Solved | [`185-department-top-three-salaries.sql`](Subqueries/185-department-top-three-salaries.sql) |
 | [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | String Functions | UPPER(LEFT) + LOWER(SUBSTRING) + CONCAT | Solved | [`1667-fix-names-in-a-table.sql`](clauses/1667-fix-names-in-a-table.sql) |
+| [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Pattern Matching, LIKE | LIKE 'DIAB1%' OR LIKE '% DIAB1%' | Solved | [`1527-patients-with-a-condition.sql`](clauses/1527-patients-with-a-condition.sql) |
+| [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | DELETE, Self JOIN | DELETE p1 with self join on email and p1.id > p2.id | Solved | [`196-delete-duplicate-emails.sql`](clauses/196-delete-duplicate-emails.sql) |
+| [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | Aggregation, String Aggregation | GROUP BY + COUNT(DISTINCT) + GROUP_CONCAT(DISTINCT ... ORDER BY) | Solved | [`1484-group-sold-products-by-the-date.sql`](clauses/1484-group-sold-products-by-the-date.sql) |
+| [1327. List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/) | Aggregation, JOIN | WHERE date range + GROUP BY + HAVING SUM >= 100 | Solved | [`1327-list-the-products-ordered-in-a-period.sql`](clauses/1327-list-the-products-ordered-in-a-period.sql) |
+| [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Regular Expressions, Pattern Matching | REGEXP_LIKE with anchored pattern and case-sensitive flag | Solved | [`1517-find-users-with-valid-e-mails.sql`](clauses/1517-find-users-with-valid-e-mails.sql) |
 
 ## SQL Concepts Practiced
 
