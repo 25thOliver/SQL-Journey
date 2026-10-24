@@ -75,6 +75,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | String Functions | UPPER(LEFT) + LOWER(SUBSTRING) + CONCAT | Solved | [`1667-fix-names-in-a-table.sql`](clauses/1667-fix-names-in-a-table.sql) |
 | [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Pattern Matching, LIKE | LIKE 'DIAB1%' OR LIKE '% DIAB1%' | Solved | [`1527-patients-with-a-condition.sql`](clauses/1527-patients-with-a-condition.sql) |
 | [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | DELETE, Self JOIN | DELETE p1 with self join on email and p1.id > p2.id | Solved | [`196-delete-duplicate-emails.sql`](clauses/196-delete-duplicate-emails.sql) |
+| [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | Aggregation, String Aggregation | GROUP BY + COUNT(DISTINCT) + GROUP_CONCAT(DISTINCT ... ORDER BY) | Solved | [`1484-group-sold-products-by-the-date.sql`](clauses/1484-group-sold-products-by-the-date.sql) |
 
 ## SQL Concepts Practiced
 
