@@ -77,6 +77,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | DELETE, Self JOIN | DELETE p1 with self join on email and p1.id > p2.id | Solved | [`196-delete-duplicate-emails.sql`](clauses/196-delete-duplicate-emails.sql) |
 | [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | Aggregation, String Aggregation | GROUP BY + COUNT(DISTINCT) + GROUP_CONCAT(DISTINCT ... ORDER BY) | Solved | [`1484-group-sold-products-by-the-date.sql`](clauses/1484-group-sold-products-by-the-date.sql) |
 | [1327. List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/) | Aggregation, JOIN | WHERE date range + GROUP BY + HAVING SUM >= 100 | Solved | [`1327-list-the-products-ordered-in-a-period.sql`](clauses/1327-list-the-products-ordered-in-a-period.sql) |
+| [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Regular Expressions, Pattern Matching | REGEXP_LIKE with anchored pattern and case-sensitive flag | Solved | [`1517-find-users-with-valid-e-mails.sql`](clauses/1517-find-users-with-valid-e-mails.sql) |
 
 ## SQL Concepts Practiced
 
