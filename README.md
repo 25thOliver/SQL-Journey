@@ -74,6 +74,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | Subqueries, JOIN | DENSE_RANK() OVER (PARTITION BY departmentId) + filter rank <= 3 | Solved | [`185-department-top-three-salaries.sql`](Subqueries/185-department-top-three-salaries.sql) |
 | [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | String Functions | UPPER(LEFT) + LOWER(SUBSTRING) + CONCAT | Solved | [`1667-fix-names-in-a-table.sql`](clauses/1667-fix-names-in-a-table.sql) |
 | [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Pattern Matching, LIKE | LIKE 'DIAB1%' OR LIKE '% DIAB1%' | Solved | [`1527-patients-with-a-condition.sql`](clauses/1527-patients-with-a-condition.sql) |
+| [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | DELETE, Self JOIN | DELETE p1 with self join on email and p1.id > p2.id | Solved | [`196-delete-duplicate-emails.sql`](clauses/196-delete-duplicate-emails.sql) |
 
 ## SQL Concepts Practiced
 
