@@ -71,6 +71,7 @@ Update the status as work progresses: `Not started` → `In progress` → `Solve
 | [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) | Window Functions, Subqueries | Daily SUM subquery + SUM() OVER (ROWS 6 PRECEDING) + ROW_NUMBER filter | Solved | [`1321-restaurant-growth.sql`](Subqueries/1321-restaurant-growth.sql) |
 | [602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | Aggregation, UNION ALL | UNION ALL both id columns + GROUP BY + COUNT + LIMIT 1 | Solved | [`602-friend-requests-ii-who-has-the-most-friends.sql`](Subqueries/602-friend-requests-ii-who-has-the-most-friends.sql) |
 | [585. Investments in 2016](https://leetcode.com/problems/investments-in-2016/) | Subqueries, GROUP BY/HAVING | Two IN subqueries (duplicate tiv_2015, unique lat/lon pair) + SUM | Solved | [`585-investments-in-2016.sql`](Subqueries/585-investments-in-2016.sql) |
+| [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | Subqueries, JOIN | DENSE_RANK() OVER (PARTITION BY departmentId) + filter rank <= 3 | Solved | [`185-department-top-three-salaries.sql`](Subqueries/185-department-top-three-salaries.sql) |
 
 ## SQL Concepts Practiced
 
