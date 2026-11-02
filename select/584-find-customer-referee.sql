@@ -27,5 +27,5 @@ with NULL evaluate to UNKNOWN.
  */
 
  SELECT name
- FROM customer
+ FROM Customer
  WHERE referee_id != 2 or referee_id IS NULL;
