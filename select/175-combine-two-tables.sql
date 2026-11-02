@@ -7,7 +7,7 @@
 -- Complexity: O(P + A) as a rough estimate, depending on indexes and
 --              the database execution plan, where P = Person rows and
 --              A = Address rows.
--- What tripped me up: Nothing significant.
+-- What tripped me up: Initially considering INNER JOIN before realizing that people without an address entry in the Address table would be dropped from the output.
 -- What I learned: LEFT JOIN preserves all rows from the left table,
 --                 even when no matching row exists on the right.
 

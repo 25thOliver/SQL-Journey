@@ -4,7 +4,8 @@
 -- Pattern: Self join a table to itself to find rows that have a "better" duplicate, then delete them
 -- Approach: Join Person to itself on email and delete the row with the larger id whenever a row with the same email and a smaller id exists, so only the smallest id per email remains.
 -- Complexity: O(n) expected with an index on email; without one, the self join can approach O(n^2)
--- What tripped me up: Nothing major.
+-- What tripped me up: Writing DELETE p1 using a table alias in MySQL syntax rather than a simple DELETE FROM Person, and making sure the join comparison is p1.id > p2.id so the minimum id survives.
+
 -- What I learned: A self join with p1.id > p2.id targets every duplicate except the smallest id. 
 
 DELETE 

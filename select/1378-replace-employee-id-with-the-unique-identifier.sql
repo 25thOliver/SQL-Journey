@@ -1,5 +1,5 @@
 /*
-Link: https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/submissions/2170272380/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/?envType=study-plan-v2&envId=top-sql-50
 
 Topic: SELECT, JOIN
 Pattern: LEFT JOIN with matching keys

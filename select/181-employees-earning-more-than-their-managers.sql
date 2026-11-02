@@ -6,7 +6,7 @@
 --           to the manager's id, then compare their salaries.
 -- Complexity: O(n) as a rough estimate with a suitable execution plan;
 --              actual performance depends on indexing and the query plan.
--- What tripped me up: Nothing significant.
+-- What tripped me up: Ensuring the join condition matches e.managerId = m.id rather than accidental inversion (e.id = m.managerId), which would compare a manager to their employees instead.
 -- What I learned: A self-join lets us compare records from the same table.
 
 SELECT 

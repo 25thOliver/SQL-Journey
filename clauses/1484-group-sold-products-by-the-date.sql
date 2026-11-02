@@ -6,11 +6,12 @@
 -- Complexity: O(n log n) for sorting within groups and the final ordering; depends on indexes and database implementation
 -- What tripped me up: Nothing major. 
 -- What I learned: GROUP_CONCAT can de-duplicate and sort in one call with DISTINCT and ORDER BY inside it. 
+-- Without DISTINCT inside GROUP_CONCAT, duplicates would be concatenated repeatedly (e.g., 'Mask,Mask' instead of 'Mask').
 
 SELECT
     sell_date,
     COUNT(DISTINCT product) AS num_sold,
     GROUP_CONCAT(DISTINCT product ORDER BY product SEPARATOR ',') AS products
-FROM activities
+FROM Activities
 GROUP BY sell_date
 ORDER BY sell_date ASC;

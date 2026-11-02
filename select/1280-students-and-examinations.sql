@@ -1,5 +1,5 @@
 /*
-Link: https://leetcode.com/problems/students-and-examinations/submissions/2170560584/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/students-and-examinations/description/?envType=study-plan-v2&envId=top-sql-50
 
 Topic: JOIN, GROUP BY, COUNT
 Pattern: CROSS JOIN + LEFT JOIN + aggregation
@@ -36,4 +36,4 @@ GROUP BY
     Subjects.subject_name
 ORDER BY
     Students.student_id,
-    Students.student_name;
+    Subjects.subject_name;
