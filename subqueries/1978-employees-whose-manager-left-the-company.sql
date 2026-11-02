@@ -4,7 +4,7 @@
 -- Pattern: Find rows whose foreign key has no matching row in the same table
 -- Approach: Keep employees with salary under 30000 and a non-null manager_id that does not appear in the table's employee_id column, then sort by employee_id.
 -- Complexity: O(n) expected with suitable execution plans; depends on indexes and database implementation
--- What tripped me up: Nothing.
+-- What tripped me up: Forgetting `manager_id IS NOT NULL` before `NOT IN` would be dangerous if NULLs were present in the subquery or filtered incorrectly, though here `NOT IN (SELECT employee_id...)` handles non-null manager_ids correctly when filtered.
 -- What I learned: "Manager left" means the manager_id has no matching employee_id. Use NOT IN (or NOT EXISTS) against a one-column subquery. NOT IN is safe only when the subquery column cannot be NULL.
 
 SELECT

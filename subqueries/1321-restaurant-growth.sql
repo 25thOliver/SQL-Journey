@@ -4,8 +4,8 @@
 -- Pattern: Aggregate to one row per day, then apply a sliding window frame over the ordered rows
 -- Approach: Sum amounts per visited_on in a subquery, compute a 7-row running sum with ROWS BETWEEN 6 PRECEDING AND CURRENT ROW, drop the first six rows with ROW_NUMBER, and divide by 7 for the average.
 -- Complexity: O(n log n) for sorting behind the window functions; depends on indexes and database implementation
--- What tripped me up: GROUP BY visited_on averaged a single day instead of a 7-day window, left amount unaggregated, and kept the first six days that have incomplete windows.
--- What I learned: Moving averages need a window frame, not GROUP BY. 
+-- What tripped me up: GROUP BY visited_on averaged a single day instead of a 7-day window. Also noted that ROWS BETWEEN 6 PRECEDING AND CURRENT ROW assumes contiguous daily data with no missing calendar days; if days are missing, ROWS counts 7 recorded days rather than 7 calendar days.
+-- What I learned: Moving averages need a window frame, not GROUP BY. ROWS frames count a physical number of rows regardless of gaps, whereas RANGE BETWEEN INTERVAL 6 DAY PRECEDING AND CURRENT ROW (or a calendar-based self-join on DATE_SUB) evaluates date offsets and handles missing calendar days accurately.
 
 SELECT
     visited_on,

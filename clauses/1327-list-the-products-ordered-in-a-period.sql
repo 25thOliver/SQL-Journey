@@ -4,7 +4,7 @@
 -- Pattern: Filter rows by a date range with WHERE, aggregate per group, then filter the totals with HAVING
 -- Approach: Join Orders to Products, keep only orders from February 2020, group by product, and keep products whose total units are at least 100.
 -- Complexity: O(n) expected for the join and grouping; depends on indexes and database implementation
--- What tripped me up: Nothing.
+-- What tripped me up: Distinguishing between WHERE and HAVING: initially considered filtering `SUM(unit) >= 100` in WHERE, but aggregate totals cannot be evaluated before rows are grouped.
 -- What I learned: WHERE filters rows before grouping and HAVING filters groups after aggregation. A threshold on a SUM always belongs in HAVING, and the date range belongs in WHERE
 
 SELECT

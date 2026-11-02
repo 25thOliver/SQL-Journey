@@ -15,7 +15,7 @@ Approach:
 3. Round the average to two decimal places.
 
 What tripped me up:
-Nothing significant.
+Handling projects where average experience has multiple decimal places, which required explicit `ROUND(..., 2)` to match the expected precision.
 
 What I learned:
 AVG() calculates the average of a numeric column.

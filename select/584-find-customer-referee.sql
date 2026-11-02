@@ -17,15 +17,15 @@ Time: O(n) in a typical full table scan.
 Space: O(1) auxiliary space, excluding database execution overhead.
 
 What tripped me up:
-The idea of understanding how NULL values behave in SQL comparisons.
+Understanding how NULL values behave in SQL comparisons: `referee_id != 2` alone filters out NULLs. Also had to fix the table casing from lowercase `customer` to `Customer` for case-sensitive environments.
 
 What I learned:
 Use IS NULL to check for missing values. A condition such as
 referee_id != 2 does not include NULL values because comparisons
-with NULL evaluate to UNKNOWN.
+with NULL evaluate to UNKNOWN. Keep table names exactly as defined in the schema.
 
  */
 
  SELECT name
- FROM customer
+ FROM Customer
  WHERE referee_id != 2 or referee_id IS NULL;

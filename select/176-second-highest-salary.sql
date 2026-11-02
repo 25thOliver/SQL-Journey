@@ -6,7 +6,7 @@
 --           the second one. If it does not exist, the subquery returns NULL.
 -- Complexity: Depends on the execution plan and indexing; sorting distinct
 --              salaries may require O(n log n) time.
--- What tripped me up: Nothing.
+-- What tripped me up: Writing `LIMIT 1 OFFSET 1` directly at the top level returns an empty result set (0 rows) instead of `NULL` when there is only one salary in the table; wrapping it in a scalar subquery `SELECT (...)` ensures a single `NULL` is returned.
 -- What I learned: DISTINCT removes duplicate salaries, and a scalar
 --                 subquery returns NULL when it produces no rows.
 

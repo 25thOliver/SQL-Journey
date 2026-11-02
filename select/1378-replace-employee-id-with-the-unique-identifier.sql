@@ -1,5 +1,5 @@
 /*
-Link: https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/submissions/2170272380/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/?envType=study-plan-v2&envId=top-sql-50
 
 Topic: SELECT, JOIN
 Pattern: LEFT JOIN with matching keys
@@ -23,7 +23,7 @@ Space Complexity: O(1) The query does not use extra space beyond the result
  set.
 
 What tripped me up:
-Nothing. Ever solved such a problem.
+Remembering which table belongs on the left of the LEFT JOIN so employees without a matching unique ID are not dropped by mistake.
 
 What I learned:
 Use LEFT JOIN when all rows from the first table must retained,

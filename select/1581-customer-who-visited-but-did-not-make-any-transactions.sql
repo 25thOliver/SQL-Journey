@@ -26,7 +26,7 @@ Space: O(n + m) for a typical hash join and grouping operation,
 depending on the execution plan and excluding the result set.
 
 What tripped me up:
-Nothing
+Originally tried filtering with `WHERE transaction_id = NULL` instead of `IS NULL`, which evaluated to UNKNOWN and dropped all rows.
 
 What I learned:
 Use LEFT JOIN with IS NULL to find records without a match,
