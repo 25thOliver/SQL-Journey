@@ -1,5 +1,5 @@
 -- Problem: 1211. Queries Quality and Percentage
--- Link: https://leetcode.com/problems/queries-quality-and-percentage/submissions/2173003425/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/queries-quality-and-percentage/description/?envType=study-plan-v2&envId=top-sql-50
 -- Topic: Aggregation, AVG, SUM, ROUND
 -- Pattern: Conditional aggregation
 -- Approach: Calculate average rating-to-position ratio and percentage
