@@ -1,18 +1,20 @@
 -- Problem: 180. Consecutive Numbers
 -- Link: https://leetcode.com/problems/consecutive-numbers/?envType=study-plan-v2&envId=top-sql-50
--- Topic: Self JOIN
--- Pattern: Compare each row with the rows that follow it to detect runs
--- Approach: Join Logs to itself on id + 1 and id + 2, keep the rows where all three num values match, and return the distinct numbers.
--- Complexity: O(n) expected with an index on id; depends on indexes and database implementation
--- What tripped me up: A run of four or more matching rows produces several matches, so DISTINCT is needed to avoid duplicate results.
--- What I learned: To detect consecutive runs, line each row up with its neighbors using a self join on id offsets (or LEAD/LAG). This relies on ids having no gaps.
+-- Topic: Window Functions
+-- Pattern: Compare consecutive rows using LAG() over ordered rows
+-- Approach: Using LAG(num, 1) and LAG(num, 2) OVER (ORDER BY id) in a subquery, check 
+                -- where num equals both preceding numbers, and select DISTINCT num.
+-- Complexity: O(n log n) due to sorting for the window function; depends on indexes and database implementation
+-- What tripped me up: A self-join on id + 1 and id + 2 breaks if an ID is missing/deleted.
+-- What I learned:  Using LAG() preserves order by id and inspects consecutive rows regardless of id gaps.
 
-SELECT DISTINCT
-    l1.num AS ConsecutiveNums
-FROM Logs l1
-JOIN Logs l2
-    ON l2.id = l1.id + 1
-JOIN Logs l3
-    ON l3.id = l1.id + 2
-WHERE l1.num = l2.num
-  AND l2.num = l3.num;
+
+SELECT DISTINCT num AS ConsecutiveNums
+FROM (
+    SELECT
+        num,
+        LAG(num, 1) OVER (ORDER BY id) AS prev1,
+        LAG(num, 2) OVER (ORDER BY id) AS prev2
+    FROM Logs
+) t 
+WHERE num = prev1 AND num = prev2;
