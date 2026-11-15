@@ -4,7 +4,7 @@
 -- Pattern: Group rows by a key, then aggregate both a count and a sorted, de-duplicated string list
 -- Approach: Group by sell_date, count distinct products, and build the product list with GROUP_CONCAT(DISTINCT ... ORDER BY ... SEPARATOR ','). Sort the result by sell_date.
 -- Complexity: O(n log n) for sorting within groups and the final ordering; depends on indexes and database implementation
--- What tripped me up: Nothing major. 
+-- What tripped me up: I solved it on the first pass because the grouped GROUP_CONCAT pattern was straightforward once I remembered to use DISTINCT.
 -- What I learned: GROUP_CONCAT can de-duplicate and sort in one call with DISTINCT and ORDER BY inside it. 
 -- Without DISTINCT inside GROUP_CONCAT, duplicates would be concatenated repeatedly (e.g., 'Mask,Mask' instead of 'Mask').
 
