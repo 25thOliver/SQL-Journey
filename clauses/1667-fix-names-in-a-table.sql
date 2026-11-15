@@ -4,7 +4,7 @@
 -- Pattern: Split a string into its first character and the rest, transform each part, then rejoin
 -- Approach: Uppercase the first character with UPPER(LEFT(name, 1)), lowercase the remainder with LOWER(SUBSTRING(name, 2)), join them with CONCAT, and sort by user_id.
 -- Complexity: O(n * L) for n rows with names of length L, plus sorting; depends on indexes and database implementation
--- What tripped me up: SQL 1-based indexing for SUBSTRING(name, 2), in languages like Python it would start at index 1, so making sure not to drop or repeat the second letter took care.
+-- What tripped me up: SUBSTRING counts positions from 1 (in Python, string indexes start at 0), so SUBSTRING(name, 2) is everything after the first letter.
 -- What I learned: Capitalizing a name is UPPER on the first character plus LOWER on the remainder, joined with CONCAT.
 
 SELECT
