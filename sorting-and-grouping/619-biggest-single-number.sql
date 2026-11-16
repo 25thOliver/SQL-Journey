@@ -1,5 +1,5 @@
 -- Problem: 619. Biggest Single Number
--- Link: https://leetcode.com/problems/biggest-single-number/description/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/biggest-single-number/description/
 -- Topic: Aggregation, Subqueries, GROUP BY, HAVING
 -- Pattern: Filter groups with HAVING, then aggregate over the filtered result
 -- Approach: Keep only the numbers that appear exactly once, then take the MAX of those. MAX over an empty set returns NULL, which covers the "no single number" case.

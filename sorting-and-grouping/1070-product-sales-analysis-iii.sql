@@ -1,5 +1,5 @@
 -- Problem: 1070. Product Sales Analysis III
--- Link: https://leetcode.com/problems/product-sales-analysis-iii/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/product-sales-analysis-iii/
 -- Topic: Aggregation, Subqueries, JOIN
 -- Pattern: Find MIN(year) per group, then match back to the original table
 -- Approach: Find each product's first year and join it to Sales to return all sales entries from that year.

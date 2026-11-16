@@ -1,5 +1,5 @@
 /*
-Link: https://leetcode.com/problems/not-boring-movies/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/not-boring-movies/
 
 Topic:
 Filtering, arithmetic operators, sorting

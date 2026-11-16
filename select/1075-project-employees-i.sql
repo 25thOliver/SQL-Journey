@@ -1,6 +1,6 @@
 /*
 
-Link: https://leetcode.com/problems/project-employees-i/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/project-employees-i/
 
 
 Topic:
@@ -15,7 +15,7 @@ Approach:
 3. Round the average to two decimal places.
 
 What tripped me up:
-Nothing significant.
+Handling projects where average experience has multiple decimal places, which required explicit ROUND(..., 2) to match the expected precision.
 
 What I learned:
 AVG() calculates the average of a numeric column.

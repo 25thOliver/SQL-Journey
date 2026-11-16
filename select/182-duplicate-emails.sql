@@ -6,7 +6,7 @@
 --           more than one occurrence.
 -- Complexity: O(n) as a rough estimate with an efficient aggregation plan;
 --              actual performance depends on indexing and execution strategy.
--- What tripped me up: Nothing significant.
+-- What tripped me up: Remembering that aggregate filters cannot be placed in a WHERE clause (WHERE COUNT(email) > 1 throws a syntax error), requiring HAVING.
 -- What I learned: GROUP BY identifies unique email groups, while HAVING
 --                 filters those groups based on their row counts.
 

@@ -1,5 +1,5 @@
 -- Problem: 1141. User Activity for the Past 30 Days I
--- Link: https://leetcode.com/problems/user-activity-for-the-past-30-days-i/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/user-activity-for-the-past-30-days-i/
 -- Topic: Aggregation, Date Filtering
 -- Pattern: WHERE + GROUP BY + COUNT(DISTINCT)
 -- Approach: Filter activity to the specified 30-day period, group by date, and count unique users per day.

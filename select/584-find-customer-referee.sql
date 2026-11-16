@@ -1,4 +1,4 @@
-/* Link: https://leetcode.com/problems/find-customer-referee/?envType=study-plan-v2&envId=top-sql-50
+/* Link: https://leetcode.com/problems/find-customer-referee/
 
 
 Topic: SELECT
@@ -27,5 +27,5 @@ with NULL evaluate to UNKNOWN.
  */
 
  SELECT name
- FROM customer
+ FROM Customer
  WHERE referee_id != 2 or referee_id IS NULL;

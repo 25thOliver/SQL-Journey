@@ -1,5 +1,5 @@
 -- Problem: 1527. Patients With a Condition
--- Link: https://leetcode.com/problems/patients-with-a-condition/description/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/patients-with-a-condition/description/
 -- Topic: Pattern Matching, LIKE, WHERE
 -- Pattern: Match a prefix of a token inside a space-separated string
 -- Approach: Keep rows where DIAB1 is at the start of the string (LIKE 'DIAB1%') or at the start of a later code (LIKE '% DIAB1%'), so it only matches as a prefix and never in the middle of a code.

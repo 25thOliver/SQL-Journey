@@ -8,7 +8,7 @@
 -- Complexity: O(n) expected with a suitable execution plan; exact cost depends
 --              on indexing and the database execution plan.
 
--- What tripped me up: Nothing.
+-- What tripped me up: Nothing significant, I got it right on the first attempt.
 
 -- What I learned: managerId identifies the manager of each employee.
 --                 HAVING filters groups after aggregation.

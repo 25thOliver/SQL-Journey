@@ -1,5 +1,5 @@
 -- Problem: 1907. Count Salary Categories
--- Link: https://leetcode.com/problems/count-salary-categories/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/count-salary-categories/
 -- Topic: Aggregation, UNION ALL
 -- Pattern: Build a fixed set of output rows so empty groups still appear with a count of 0
 -- Approach: Run one COUNT(*) query per salary category with its own WHERE range, then combine them with UNION ALL. COUNT(*) with no GROUP BY returns 0 on empty input.

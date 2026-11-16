@@ -1,5 +1,5 @@
 -- Problem: 185. Department Top Three Salaries
--- Link: https://leetcode.com/problems/department-top-three-salaries/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/department-top-three-salaries/
 -- Topic: DENSE_RANK, Subqueries, JOIN
 -- Pattern: Top-N per group by ranking within each partition, then filtering on the rank
 -- Approach: Rank salaries within each department with DENSE_RANK() OVER (PARTITION BY departmentId ORDER BY salary DESC) in a subquery, join to Department, and keep rows with rank <= 3.

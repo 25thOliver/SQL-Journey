@@ -1,5 +1,5 @@
 /* 
-Link: https://leetcode.com/problems/rising-temperature/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/rising-temperature/
 
 
 Topic: SELECT, JOIN
