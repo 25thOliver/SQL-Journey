@@ -1,6 +1,6 @@
 /*
 
-Link: https://leetcode.com/problems/average-selling-price/description/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/average-selling-price/description/
 
 Topic:
 JOINs, aggregation, date ranges, NULL handling

@@ -1,5 +1,5 @@
 -- Problem: 626. Exchange Seats
--- Link: https://leetcode.com/problems/exchange-seats/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/exchange-seats/
 -- Topic: CASE, Scalar Subquery
 -- Pattern: Remap ids by parity with CASE, handling the last-row edge case
 -- Approach: Odd ids move to id + 1 and even ids to id - 1, except the last id when the total count is odd, which stays. The last id is found with a scalar subquery (SELECT MAX(id) FROM Seat).

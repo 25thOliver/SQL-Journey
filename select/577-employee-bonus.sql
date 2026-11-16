@@ -1,5 +1,5 @@
 /*
-Link: https://leetcode.com/problems/employee-bonus/description/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/employee-bonus/description/
 
 Topic: SELECT, JOIN
 Pattern: LEFT JOIN with WHERE, OR, and IS NULL

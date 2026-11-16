@@ -1,6 +1,6 @@
 /*
 Problem: 1174. Immediate Food Delivery II
-Link: https://leetcode.com/problems/immediate-food-delivery-ii/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/immediate-food-delivery-ii/
 Difficulty: Medium
 Topic: CTEs, JOINs, Aggregation
 Pattern: Find the earliest row per customer, then join back

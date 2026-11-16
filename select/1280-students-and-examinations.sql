@@ -1,5 +1,5 @@
 /*
-Link: https://leetcode.com/problems/students-and-examinations/description/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/students-and-examinations/description/
 
 Topic: JOIN, GROUP BY, COUNT
 Pattern: CROSS JOIN + LEFT JOIN + aggregation

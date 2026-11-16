@@ -1,5 +1,5 @@
 -- Problem: 196. Delete Duplicate Emails
--- Link: https://leetcode.com/problems/delete-duplicate-emails/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/delete-duplicate-emails/
 -- Topic: DELETE, Self JOIN
 -- Pattern: Self join a table to itself to find rows that have a "better" duplicate, then delete them
 -- Approach: Join Person to itself on email and delete the row with the larger id whenever a row with the same email and a smaller id exists, so only the smallest id per email remains.

@@ -1,6 +1,6 @@
 /*
 
-Link: https://leetcode.com/problems/project-employees-i/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/project-employees-i/
 
 
 Topic:

@@ -1,5 +1,5 @@
 -- Problem: 180. Consecutive Numbers
--- Link: https://leetcode.com/problems/consecutive-numbers/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/consecutive-numbers/
 -- Topic: Window Functions
 -- Pattern: Compare consecutive rows using LAG() over ordered rows
 -- Approach: Using LAG(num, 1) and LAG(num, 2) OVER (ORDER BY id) in a subquery, check 

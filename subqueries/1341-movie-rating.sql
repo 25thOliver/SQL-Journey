@@ -1,5 +1,5 @@
 -- Problem: 1341. Movie Rating
--- Link: https://leetcode.com/problems/movie-rating/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/movie-rating/
 -- Topic: Aggregation, JOIN, UNION ALL, Sorting
 -- Pattern: Top-1 per metric with ORDER BY + LIMIT 1, tie-break with a secondary sort key
 -- Approach: Query 1 groups ratings by user and picks the user with the most ratings (ties by smaller name). Query 2 filters ratings to February 2020, groups by movie, and picks the highest average rating (ties by smaller title). Combine both with UNION ALL.

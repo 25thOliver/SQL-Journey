@@ -1,4 +1,4 @@
--- Link: https://leetcode.com/problems/monthly-transactions-i/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/monthly-transactions-i/
 -- Topic: Aggregation, Date Functions, Conditional Aggregation
 -- Pattern: GROUP BY multiple columns + conditional SUM
 -- Approach: Format the transaction date as YYYY-MM, then aggregate

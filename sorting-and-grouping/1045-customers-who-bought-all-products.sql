@@ -1,5 +1,5 @@
 -- Problem: 1045. Customers Who Bought All Products
--- Link: https://leetcode.com/problems/customers-who-bought-all-products/description/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/customers-who-bought-all-products/description/
 -- Topic: Aggregation, Subqueries
 -- Pattern: GROUP BY + HAVING COUNT(DISTINCT product_key) = total distinct products
 -- Approach: Count total distinct products in Product using a scalar subquery.

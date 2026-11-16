@@ -1,5 +1,5 @@
 /* 
-Link: https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/
 
 Topic SELECT, JOIN, GROUP BY
 Pattern: LEFT JOIN with IS NULL and aggregation

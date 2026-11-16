@@ -1,4 +1,4 @@
-/* Link: https://leetcode.com/problems/find-customer-referee/?envType=study-plan-v2&envId=top-sql-50
+/* Link: https://leetcode.com/problems/find-customer-referee/
 
 
 Topic: SELECT

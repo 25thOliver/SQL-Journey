@@ -1,5 +1,5 @@
 -- Problem: 1327. List the Products Ordered in a Period
--- Link: https://leetcode.com/problems/list-the-products-ordered-in-a-period/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/list-the-products-ordered-in-a-period/
 -- Topic: Aggregation, JOIN, WHERE vs HAVING
 -- Pattern: Filter rows by a date range with WHERE, aggregate per group, then filter the totals with HAVING
 -- Approach: Join Orders to Products, keep only orders from February 2020, group by product, and keep products whose total units are at least 100.

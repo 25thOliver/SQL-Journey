@@ -1,5 +1,5 @@
 -- Problem: 1729. Find Followers Count
--- Link: https://leetcode.com/problems/find-followers-count/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/find-followers-count/
 -- Topic: Aggregation, GROUP BY
 -- Pattern: Group rows by a key and count the rows in each group
 -- Approach: Group the Followers table by user_id and count the follower_id values, then sort by user_id.

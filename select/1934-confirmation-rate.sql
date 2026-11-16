@@ -1,5 +1,5 @@
 /*
-Link: https://leetcode.com/problems/confirmation-rate/?envType=study-plan-v2&envId=top-sql-50
+Link: https://leetcode.com/problems/confirmation-rate/
 Topic: 
 LEFT JOIN, conditional aggregation, GROUP BY
 

@@ -1,5 +1,5 @@
 -- Problem: 1164. Product Price at a Given Date
--- Link: https://leetcode.com/problems/product-price-at-a-given-date/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/product-price-at-a-given-date/
 -- Topic: Subqueries, GROUP BY, UNION
 -- Pattern: Find the latest row per group up to a cutoff, then match back to the original table
 -- Approach: For products with a change on or before 2019-08-16, take the new_price from the latest such change. 

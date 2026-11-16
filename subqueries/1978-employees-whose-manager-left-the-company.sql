@@ -1,5 +1,5 @@
 -- Problem: 1978. Employees Whose Manager Left the Company
--- Link: https://leetcode.com/problems/employees-whose-manager-left-the-company/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/employees-whose-manager-left-the-company/
 -- Topic: Subqueries, NOT IN
 -- Pattern: Find rows whose foreign key has no matching row in the same table
 -- Approach: Keep employees with salary under 30000 and a non-null manager_id that does not appear in the table's employee_id column, then sort by employee_id.

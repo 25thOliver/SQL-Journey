@@ -1,5 +1,5 @@
 -- Problem: 1517. Find Users With Valid E-Mails
--- Link: https://leetcode.com/problems/find-users-with-valid-e-mails/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/find-users-with-valid-e-mails/
 -- Topic: Regular Expressions, Pattern Matching
 -- Pattern: Validate a string format with an anchored regex
 -- Approach: Match the whole string with ^ and $: a letter first, then letters, digits, underscore, period or dash, then exactly @leetcode.com. Use the 'c' flag so the match is case-sensitive.

@@ -1,5 +1,5 @@
 -- Problem: 585. Investments in 2016
--- Link: https://leetcode.com/problems/investments-in-2016/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/investments-in-2016/
 -- Topic: Subqueries, GROUP BY, HAVING, Window Functions
 -- Pattern: Filter rows by two independent group-level conditions, then aggregate the survivors
 -- Approach: Keep rows whose tiv_2015 appears more than once and whose (lat, lon) pair appears exactly once, using two IN subqueries with GROUP BY + HAVING. Then sum tiv_2016 and round to 2 decimals.

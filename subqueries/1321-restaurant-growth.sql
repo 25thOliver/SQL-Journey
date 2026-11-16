@@ -1,5 +1,5 @@
 -- Problem: 1321. Restaurant Growth
--- Link: https://leetcode.com/problems/restaurant-growth/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/restaurant-growth/
 -- Topic: Aggregation, Self-Join, Date Functions
 --
 -- Pattern:

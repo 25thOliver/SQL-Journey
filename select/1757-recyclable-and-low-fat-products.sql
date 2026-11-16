@@ -1,5 +1,5 @@
 -- Problem: Recyclable and Low Fat Products
--- Link: https://leetcode.com/problems/recyclable-and-low-fat-products/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/recyclable-and-low-fat-products/
 -- Topic: SELECT
 -- Pattern: WHERE clause with multiple conditions
 

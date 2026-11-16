@@ -1,5 +1,5 @@
 -- Problem: 2356. Number of Unique Subjects Taught by Each Teacher
--- Link: https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/?envType=study-plan-v2&envId=top-sql-50
+-- Link: https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/
 -- Topic: Aggregation, DISTINCT
 -- Pattern: GROUP BY with COUNT(DISTINCT)
 -- Approach: Group Teacher rows by teacher_id and compute COUNT(DISTINCT subject_id)
