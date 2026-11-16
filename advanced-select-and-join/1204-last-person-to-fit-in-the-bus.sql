@@ -1,5 +1,5 @@
 -- Problem: 1204. Last Person to Fit in the Bus
--- Link: https://leetcode.com/problems/last-person-to-fit-in-the-bus/submissions/2179667906/
+-- Link: https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/
 -- Topic: Running Total, Window Functions
 -- Pattern: Compute a cumulative sum in order, filter on it, then take the last qualifying row
 -- Approach: Use SUM(weight) OVER (ORDER BY turn) to get the running total at each turn, keep rows with total_weight <= 1000, and return the person with the highest turn.
